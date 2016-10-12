@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <style type="text/css">
+    	@font-face {
+		  font-family: 'iconfont';
+		  src: url('//at.alicdn.com/t/font_1473169911_5554488.eot'); /* IE9*/
+		  src: url('//at.alicdn.com/t/font_1473169911_5554488.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		  url('//at.alicdn.com/t/font_1473169911_5554488.woff') format('woff'), /* chrome、firefox */
+		  url('//at.alicdn.com/t/font_1473169911_5554488.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+		  url('//at.alicdn.com/t/font_1473169911_5554488.svg#iconfont') format('svg'); /* iOS 4.1- */
+		}
+                        
+		.iconfont{font-family:"iconfont";font-size:0.9rem;font-style:normal;}  
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//cdn.bootcss.com/touchjs/0.2.14/touch.js"></script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+    </script>
+</head>
+<body>
+	<div id="wrap">
+		<div class="home" id="main1">
+			<div class="home-header">
+				<div class="search-bar">
+					<a href="javascript:void(0)"><span class="iconfont">&#xe600;</span>搜索商品名称</a>
+				</div>
+				<div class="search-bottom"></div>
+			</div>
+			<div class="slider">
+				<div class="slider-wrap"></div>
+				<div class="slider-nav">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="list">
+				<div class="pic-section">
+					
+				</div>
+				<div class="list-section">
+					<ul>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="categroy" id="main2">
+			<div class="head">
+				<div class="head-inner">
+					<div class="head-left"><a href="javascript:void(0)" class="iconfont">&#xe607;</a></div>
+					<div class="head-center"><span>商品分类</span></div>
+					<div class="head-right"><a href="javascript:void(0)" class="iconfont">&#xe600;</a></div>
+				</div>
+			</div>
+			<div class="categroy-wrap">
+
+			</div>
+		</div>
+		<div class="shopping-cart" id="main3">
+			<div class="head">
+				<div class="head-inner">
+					<div class="head-left"><a href="javascript:void(0)" class="iconfont">&#xe607;</a></div>
+					<div class="head-center"><span>购物车</span></div>
+					<div class="head-right"><a href="javascript:void(0)" class="iconfont">&#xe600;</a></div>
+				</div>
+			</div>
+			<div class="shopping-cart-inner">
+				<div class="shopping-cart-empty">
+					<a href="javascript:void(0)"><span class="all-commodity">全部商品</span></a>
+					<a href="javascript:void(0)"><span>精选商品</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="personal-center" id="main4">
+			<div class="head">
+				<div class="head-inner">
+					<div class="head-left"><a href="javascript:void(0)" class="iconfont">&#xe607;</a></div>
+					<div class="head-center"><span>个人中心</span></div>
+					<div class="head-right"><a href="javascript:void(0)" class="iconfont">&#xe600;</a></div>
+				</div>
+			</div>
+			<div class="personal-center-inner">
+				<div class="login">
+					<h3><a href="javascript:void(0)">立即登陆</a></h3>
+					<div class="plus">+</div>
+				</div>
+				<div class="buy-detail">
+					<div class="buy-detail-inner">
+						<div class="buy-detail-left">
+							<p class="iconfont" style="font-size: 1.2rem;">&#xe608;</p>
+							<p>全部订单</p>
+							<p></p>
+						</div>
+						<div class="buy-detail-center">
+							<p class="iconfont" style="font-size: 1.2rem;">&#xe60a;</p>
+							<p>待付款</p>
+							<p></p>
+						</div>
+						<div class="buy-detail-right">
+							<p class="iconfont" style="font-size: 1.1rem;">&#xe60c;</p>
+							<p>待收货</p>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<ul class="others">
+					<li><span class="iconfont" style="font-size: .7rem;">&#xe611;</span><span>我的优惠</span></li>
+					<li><span class="iconfont" style="font-size: .7rem;">&#xe60f;</span><span>F码通道</span></li>
+					<li><span class="iconfont" style="font-size: .7rem;">&#xe610;</span><span>我的服务</span></li>
+					<li><span class="iconfont" style="font-size: .7rem;">&#xe60e;</span><span>设置</span></li>
+				</ul>
+			</div>
+		</div>
+		<footer class="footer">
+			<a href="#main1"><span class="iconfont">&#xe604;</span><span>商城</span></a>
+			<a href="#main2"><span class="iconfont">&#xe602;</span><span>分类</span></a>
+			<a href="#main3"><span class="iconfont">&#xe601;</span><span>购物车</span></a>
+			<a href="#main4"><span class="iconfont">&#xe603;</span><span>服务</span></a>
+		</footer>
+	</div>
+</body>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/16 + 'px';
+	window.onresize = function(){
+		document.documentElement.style.fontSize = innerWidth/16 + 'px';
+	}
+</script>
+</html>

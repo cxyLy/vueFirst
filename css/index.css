@@ -1,0 +1,137 @@
+*{margin: 0;padding: 0;}
+body{font-family: "微软雅黑";}
+body,html{width: 100%;height: 100%;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;}
+.clearfix:before{content: ".";clear: both;display: block;height: 0;visibility: hidden;}
+/*-----------------------------------------*/
+.footer{width: 16rem;height: 2rem;position: fixed;bottom: 0;display: flex;justify-content: space-around;border-top: 1px solid #e0e0e0;background: #FFFFFF;}
+.footer a{font-size: .6rem;color: #878787;align-self: center;display: inline-block;height: 1.9rem;width: 25%;text-align: center;padding-top: .1rem;}
+.footer a span{display: inline-block;width: 100%;}
+/*---------------------------------------------*/
+#wrap{width: 16rem;position: relative;}
+#wrap>div{position: absolute;top: 0;left: 0;width: 16rem;margin-bottom: 2rem;}
+.home{display: none;}
+.categroy{display: none;}
+.shopping-cart{display: none;}
+.personal-center{display: none;background: #F5F5F5;height: 30rem;}
+#wrap>div:target{display: block;}
+/*---------------home---------------------*/
+.home-header{width: 16rem;height: 1.8rem;padding: 0 0 .2rem 0;}
+.search-bar{width: 100%;height: 1.5rem;}
+.search-bar a{display: block;font-size: .7rem;padding: .3rem .7rem .2rem .7rem;color: #9C9C9C;}
+.search-bar a span{padding-right: .25rem;}
+.search-bottom{height: .2rem;margin: 0 .5rem;border: 1px solid #E3E3E3;border-top: 0;}
+
+.slider{width: 16rem;height: 8rem;overflow: hidden;position: relative;}
+.slider-wrap{width: 96rem;height: 100%;}
+.slider-wrap img{width: 16rem;height: 8rem;float: left;}
+
+.slider-nav{width: 100%;position: absolute;bottom: 0;text-align: center;margin-bottom: .2rem;}
+.slider-nav span{width:.2rem;height: .2rem; ;border-radius: 50%;background: #fff;display: inline-block;margin: 0 .1rem;opacity: 0.6;}
+
+.list{width: 16rem;}
+.pic-section{width: 100%;overflow: hidden;padding: .2rem 0;background: #F5F5F5;}
+.pic-section img{float: left;width: 5.2rem;}
+.pic-section img:nth-child(1),.pic-section img:nth-child(2),.pic-section img:nth-child(4),.pic-section img:nth-child(5){
+	margin-right: 0.2rem;
+}
+.pic-section img:nth-child(1),.pic-section img:nth-child(2),.pic-section img:nth-child(3){
+	margin-bottom: 0.2rem;
+}
+
+.list-section{width: 100%;}
+.list-section ul{width: 100%;}
+.list-section ul li{width: 100%;padding: .8rem 0;border-bottom: 1px solid #F2F2F2;overflow: hidden;}
+.img{width: 5.3rem;/*height: 3.1rem;*/float: left;}
+.img img{width: 100%;}
+.info{float: left;width: 10.2rem;margin-right: .5rem;}
+.info p:first-child,.info p:nth-child(3){font-size: .7rem;}
+.info p:nth-child(2){font-size: .6rem;padding: .3rem 0;color: #969696;}
+.info p:nth-child(3){color: #FE4900;}
+.list-section ul li:last-child{width: 100%;padding: .3rem 0;background: #F5F5F5;}
+.last div{width: 100%;overflow: hidden;}
+.last img{width: 8rem;float: left;}
+/*-------------------categroy--------------------*/
+ .head{width: 16rem;height: 1.75rem;background: #F2F2F2;border-bottom: 1px solid #EEEEEE;}
+ .head-inner{width: 14.9rem;margin: 0 .5rem;overflow: hidden;}
+.head-left,.head-center{float: left;}
+.head-left a,.head-right a{line-height: 1.75rem;color: #949494;height: 1.75rem;display: inline-block;}
+.head-center{margin-left:5.5rem;font-size: .6rem; }
+.head-center span{line-height: 1.75rem;}
+.head-right{float: right;}
+
+.categroy-wrap{width: 100%;background: #F5F5F5;padding: 0.1px;}
+.categroy-wrap>div{width:15rem ;margin: .5rem .5rem 0 .5rem;background: white;padding: 0.1px;}
+.categroy-wrap>div>h3{font-size: .6rem;text-align: center;margin: 1.1rem 0;}
+.categroy-wrap>div>ul{width:14rem;margin: 0 .5rem;overflow: hidden;}
+.categroy-wrap>div>ul>li{width: 3.5rem;float: left;font-size: .6rem;text-align: center;margin-bottom: 1rem;}
+.categroy-wrap>div>ul>li img{width: 2rem;margin-bottom: .5rem;}
+.categroy-wrap>div:last-child{margin-bottom: .5rem;}
+.categroy-wrap>div>ul>li figcaption{width: 3.5rem;overflow: hidden;white-space: nowrap;}
+
+/*-----------------shopping-cart-----------------------*/
+.shopping-cart-inner{width: 16rem;}
+.shopping-cart-empty{margin: 3.3rem 2.2rem 0;width: 11.6rem;padding-top: 6.5rem;background: url(../img/empty.png) top center no-repeat;background-size:40%;overflow: hidden;}
+.shopping-cart-empty a{display: inline-block;width:5.8rem;height:2.25rem;float: left;}
+.shopping-cart-empty a span{display: inline-block;line-height: 2.25rem;width: 100%;text-align: center;font-size: .7rem;}
+.shopping-cart-empty a:first-child{background: #F4F4F4;color: black;}
+.shopping-cart-empty a:last-child{background: #FF5722;color: white;}
+
+/*---------------------personal-center--------------------------*/
+.login{width: 100%;height: 4rem;background: #FF6B00;padding: 0.1px;position: relative;}
+.login h3{text-align: center;margin-top: .4rem;}
+.login h3 a{font-size: .8rem;color: white;font-weight: normal;}
+ .plus{width: 3.2rem;height: 3.2rem;border-radius: 50%;background: #FFD24D;color: white;text-align: center;line-height: 2.9rem;font-weight: bold;font-size: 1.5rem;position: absolute;bottom: -1.6rem;left:6.4rem ;}
+
+.buy-detail{width: 100%;height: 4.3rem;padding-top: 1.55rem;background: white;margin-bottom: .7rem;}
+.buy-detail-inner{margin: .45rem .45rem .9rem .45rem;width: 15.1rem;height: 2.95rem;display: flex;justify-content: space-around;}
+.buy-detail-inner p{font-size: .6rem;text-align: center;}
+.buy-detail-inner>div{align-self: center;width: 33.3%;height: 100%;}
+.buy-detail-center{border-left:1px solid #ECECEC ;border-right:1px solid #ECECEC ;}
+.buy-detail-inner>div p:nth-child(2){margin-top: .3rem;}
+.buy-detail-left p:last-child{width: 1.2rem;border-bottom:1px solid #E33F7B ;margin-left: 1.9rem;height: .5rem;}
+.buy-detail-center p:last-child{width: 1.2rem;border-bottom:1px solid #8BC34A ;margin-left: 1.9rem;height: .5rem;}
+.buy-detail-right p:last-child{width: 1.2rem;border-bottom:1px solid #FFAA00 ;margin-left: 1.9rem;height: .5rem;}
+
+.others{width: 16rem;}
+.others li{height: 1.8rem;width:15.9rem ;background: white;font-size: .6rem;}
+.others li:first-child{border: 1px solid #F5F5F5;}
+.others li:nth-child(2),.others li:nth-child(3){margin-bottom: .5rem;}
+.others li span{line-height: 1.6rem;}
+.others li span:first-child{margin:0 .8rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
