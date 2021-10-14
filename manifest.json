@@ -1,4 +1,5 @@
 ﻿{
+    "@platforms1": ["android", "iPhone", "iPad"],
     "@platforms": ["android", "iPhone", "iPad"],
     "id": "H56C95081",/*应用的标识，创建应用时自动生成，勿手动修改*/
     "name": "9.6MI",/*应用名称，程序桌面图标名称*/
